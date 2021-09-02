@@ -1,0 +1,31 @@
+{
+  "name": "imekov_webchat",
+  "version": "1.0.0",
+  "description": "https://www.figma.com/file/x0MUAAzelc0STtEXsYdQiS/imekov_webchat?node-id=0%3A1",
+  "dependencies": {
+    "autoprefixer": "^10.3.3",
+    "cssnano": "^5.0.8",
+    "handlebars": "^4.7.7",
+    "parcel": "^2.0.0-rc.0",
+    "postcss-loader": "^6.1.1"
+  },
+  "devDependencies": {
+    "@parcel/transformer-image": "^2.0.0-rc.0",
+    "express": "^4.17.1"
+  },
+  "scripts": {
+    "dev": "./node_modules/.bin/parcel index.html",
+    "build": "./node_modules/.bin/parcel build index.html",
+	"start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AsapDolly/middle.messenger.praktikum.yandex.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AsapDolly/middle.messenger.praktikum.yandex/issues"
+  },
+  "homepage": "https://github.com/AsapDolly/middle.messenger.praktikum.yandex#readme"
+}

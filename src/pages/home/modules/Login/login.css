@@ -1,0 +1,111 @@
+.login__form {
+  width: 340px;
+  margin: 135px auto 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.login__title {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1E1E1E;
+  margin: 50px 0 0 0;
+}
+
+.login__input-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px 0 0 0;
+}
+
+.login_input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.login__input-label {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 9px;
+  color: #999999;
+}
+
+.login__input-label_error {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FF3055;
+  margin-top: 6px;
+  position: absolute;
+}
+
+.login__input {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #000000;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #BADA55;
+  padding: 6px 0;
+  background: transparent;
+  width: 280px;
+}
+
+.login__input_type_password {
+  font: small-caption;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.login__button {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0;
+  margin: 159px 0 0 0;
+  width: calc(100% - 30px * 2);
+  height: 37px;
+  color: #FFFFFF;
+  background: #BADA55;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.login__button:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.login__signin-text_link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  color: #BADA55;
+  margin: 14px 0 30px 0;
+  text-decoration: none;
+}
+
+.login__signin-text_link:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
