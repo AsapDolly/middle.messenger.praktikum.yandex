@@ -1,0 +1,111 @@
+.signup__form {
+  width: 340px;
+  margin: 135px auto 0 auto;
+  background: #FFFFFF;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.signup__title {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 20px;
+  color: #1E1E1E;
+  margin: 50px 0 0 0;
+}
+
+.signup__input-list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin: 40px 0 0 0;
+}
+
+.signup_input-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.signup__input-label {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 9px;
+  line-height: 9px;
+  color: #999999;
+}
+
+.signup__input-label_error {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #FF3055;
+  margin-top: 6px;
+  position: absolute;
+}
+
+.signup__input {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  color: #000000;
+  outline: 0;
+  border-width: 0 0 1px;
+  border-color: #BADA55;
+  padding: 5px 0;
+  background: transparent;
+  width: 280px;
+}
+
+.signup__input_type_password {
+  font: small-caption;
+  font-size: 10px;
+  letter-spacing: 1px;
+}
+
+.signup__button {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 13px;
+  padding: 0;
+  margin: 62px 0 0 0;
+  width: calc(100% - 30px * 2);
+  height: 37px;
+  color: #FFFFFF;
+  background: #BADA55;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+}
+
+.signup__button:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}
+
+.signup__login-text_link {
+  font-family: 'Inter', Arial, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 11px;
+  color: #BADA55;
+  margin: 14px 0 30px 0;
+  text-decoration: none;
+}
+
+.signup__login-text_link:hover {
+  opacity: 0.7;
+  transition: opacity 0.5s;
+}

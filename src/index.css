@@ -1,0 +1,11 @@
+@import url(./vendor/fonts.css);
+@import url(pages/home/modules/Login/login.css);
+@import url(pages/home/modules/Signup/signup.css);
+@import url(pages/PageNotFound/pageNotFound.css);
+@import url(pages/ServerError/serverError.css);
+@import url(pages/Profile/profile.css);
+@import url(pages/PasswordChange/passwordChange.css);
+
+body {
+    margin:0;
+}
