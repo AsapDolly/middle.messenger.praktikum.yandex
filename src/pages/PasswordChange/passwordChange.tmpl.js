@@ -2,7 +2,7 @@
 export default `
         <section class='password-change'>
         
-            <form class='password-change__form' onSubmit={{handleSubmit}} noValidatediv>
+            <form class='password-change__form' novalidate>
             
             <div class="password-change__avatar"></div>
 

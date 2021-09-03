@@ -97,7 +97,7 @@ export default `
                       Зарегистрироваться
                 </button>
 
-                    <a href="#" class="signup__login-text_link">
+                    <a href="/Login.html" class="signup__login-text_link">
                         Войти
                     </a>
 

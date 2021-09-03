@@ -14,8 +14,8 @@
     "express": "^4.17.1"
   },
   "scripts": {
-    "dev": "./node_modules/.bin/parcel index.html",
-    "build": "./node_modules/.bin/parcel build index.html",
+    "dev": "./node_modules/.bin/parcel ./not-spa-pages/*.html",
+    "build": "./node_modules/.bin/parcel build ./not-spa-pages/*.html",
 	"start": "node app.js"
   },
   "repository": {

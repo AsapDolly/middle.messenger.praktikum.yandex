@@ -1,7 +1,7 @@
 .login__form {
   width: 340px;
   margin: 135px auto 0 auto;
-  background: #FFFFFF;
+  background: var(--main-white-color);
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.14);
   border-radius: 12px;
   display: flex;
@@ -10,12 +10,12 @@
 }
 
 .login__title {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #1E1E1E;
+  color: var(--main-dark-text-color);
   margin: 50px 0 0 0;
 }
 
@@ -32,35 +32,35 @@
 }
 
 .login__input-label {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 9px;
   line-height: 9px;
-  color: #999999;
+  color: var(--main-input-grey-color);
 }
 
 .login__input-label_error {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: normal;
   font-size: 10px;
   line-height: 12px;
-  color: #FF3055;
+  color: var(--main-error-red-color);
   margin-top: 6px;
   position: absolute;
 }
 
 .login__input {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
   line-height: 13px;
-  color: #000000;
+  color: var(--main-black-color);
   outline: 0;
   border-width: 0 0 1px;
-  border-color: #BADA55;
+  border-color: var(--main-theme-color);
   padding: 6px 0;
   background: transparent;
   width: 280px;
@@ -73,7 +73,7 @@
 }
 
 .login__button {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 13px;
@@ -82,8 +82,8 @@
   margin: 159px 0 0 0;
   width: calc(100% - 30px * 2);
   height: 37px;
-  color: #FFFFFF;
-  background: #BADA55;
+  color: var(--main-white-color);
+  background: var(--main-theme-color);
   border-radius: 8px;
   border: none;
   cursor: pointer;
@@ -95,12 +95,12 @@
 }
 
 .login__signin-text_link {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
   line-height: 11px;
-  color: #BADA55;
+  color: var(--main-theme-color);
   margin: 14px 0 30px 0;
   text-decoration: none;
 }
