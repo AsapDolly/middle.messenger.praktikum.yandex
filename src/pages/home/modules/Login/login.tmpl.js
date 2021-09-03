@@ -2,7 +2,7 @@
 export default `
         <section class='login'>
 
-            <form class="login__form" onSubmit={{handleSubmit}} noValidate>
+            <form class="login__form" noValidate>
                 <h1 class="login__title">Вход</h1>
                 
                 <div class="login__input-list">
@@ -37,7 +37,7 @@ export default `
 
                 <button class="login__button" type="submit">Авторизироваться</button>
 
-                    <a href="#" class="login__signin-text_link">
+                    <a href="/Signup.html" class="login__signin-text_link">
                         Зарегистрироваться
                     </a>
 

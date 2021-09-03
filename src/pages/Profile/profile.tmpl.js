@@ -115,11 +115,11 @@ export default `
                         Изменить данные
                     </a>
                     
-                    <a href="#" class="profile__input-label profile__link profile__link-change-password">
+                    <a href="/PasswordChange.html" class="profile__input-label profile__link profile__link-change-password">
                         Изменить пароль
                     </a>
                     
-                    <a href="#" class="profile__input-label profile__link profile__link-logout profile__link_red">
+                    <a href="/Login.html" class="profile__input-label profile__link profile__link-logout profile__link_red">
                         Выйти
                     </a>
                 </div>

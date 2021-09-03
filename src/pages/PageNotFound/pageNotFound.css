@@ -5,32 +5,32 @@
 }
 
 .page-not-found__title {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 40px;
   line-height: 40px;
-  color: #1E1E1E;
+  color: var(--main-dark-text-color);
   margin: 280px 0 0 0;
 }
 
 .page-not-found__text {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 20px;
-  color: #1E1E1E;
+  color: var(--main-dark-text-color);
   margin: 20px 0 0 0;
 }
 
 .page-not-found__link {
-  font-family: 'Inter', Arial, sans-serif;
+  font-family: var(--main-inter-font);
   font-style: normal;
   font-weight: 500;
   font-size: 11px;
   line-height: 11px;
-  color: #BADA55;
+  color: var(--main-theme-color);
   text-decoration: none;
   cursor: pointer;
   margin: 69px 0 0 0;
